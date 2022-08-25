@@ -1,0 +1,16 @@
+<section class="container-user">
+    <article class="pontos">
+        <h3>pontos e troféus</h3>
+        <div class="pont-trof">
+            <p>pontuação : {{pontuacao}}</p>
+            <div>
+                <p>troféus : </p>
+                <p><i class="fa fa-trophy"></i> literatura brasileira</p>
+            </div>
+        </div>
+    </article>
+    <article class="rank">
+        <h3>ranking de usuários</h3>
+        <p *ngFor="let ranking of rank; let i = index">{{i + 1}}º {{ranking.name}} pontos: {{ranking.pontos}}</p>
+    </article>
+</section>

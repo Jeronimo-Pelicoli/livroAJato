@@ -1,0 +1,23 @@
+.container-footer {
+    background-color: #7B68EE;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.linksocial nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin: 5px;
+}
+
+a {
+    color: white;
+}

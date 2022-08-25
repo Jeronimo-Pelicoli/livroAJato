@@ -1,0 +1,10 @@
+<main>
+    <div>
+        <ul>
+            <li *ngFor="let livro of livros">
+                {{livro.name}}
+                <button [routerLink]="['/detalhelivro', livro.id]">Detalhes</button>
+            </li>
+        </ul>
+    </div>
+</main>

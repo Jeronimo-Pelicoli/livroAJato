@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7B68EE;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.button-logoff {
+    margin-left: 15px;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px black;
+}

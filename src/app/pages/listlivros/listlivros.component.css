@@ -1,0 +1,31 @@
+main {
+    width: 70%;
+    background-color: #8A2BE2;
+    margin: 30px auto;
+    border: solid #4B0082;
+    border-radius: 0.6rem;
+}
+
+ul {
+    padding: 0;
+    width: 70%;
+    margin: 30px auto;
+}
+
+li {
+    margin: 15px auto;
+    background-color: #ccc;
+    padding: 10px 15px;
+    border: 1px solid #666;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px #666;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px black;
+}

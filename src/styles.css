@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'font-awesome/css/font-awesome.min.css';
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color:  #DCDCDC;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

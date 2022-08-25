@@ -1,0 +1,12 @@
+<header class="header">
+    <div>
+        <h1><a routerLink='/livros'>Livro a Jato</a></h1>
+    </div>
+    <div *ngIf="!user.login">
+        <a routerLink='/login'>Login</a>
+    </div>
+    <div *ngIf="user.login">
+        Olá<a routerLink='/user'> {{user.name}}</a>
+        <button (click)="logoff()" class="button-logoff">Sair</button>
+    </div>
+</header>

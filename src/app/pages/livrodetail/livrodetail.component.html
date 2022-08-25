@@ -1,0 +1,17 @@
+<section>
+    <div class="card-header">
+        <h2>{{livro.name}}</h2>
+        <button *ngIf="user.login && !jaLido" (click)="marcarLido()">Marcar como lido</button>
+        <button *ngIf="!user.login" routerLink='/login'>Faça login para marcar como lido</button>
+        <p class="jalido" *ngIf="jaLido && user.login">Já lido</p>
+    </div>
+    <div class="card-livro">
+        <img src="{{livro.image}}" alt="{{livro.name}}">
+        <div class="card-content">
+            <p>{{livro.price | currency }}</p>
+            <p>Quantidade de páginas: {{livro.quantpages}}</p>
+            <p>Resumo:</p>
+            <p>{{livro.resume}}</p>
+        </div>
+    </div>
+</section>

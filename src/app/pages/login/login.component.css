@@ -1,0 +1,38 @@
+.container-login {
+    width: 40%;
+    background-color: #8A2BE2;
+    margin: 3.7rem auto;
+    border: solid #4B0082;
+    border-radius: 0.6rem;
+}
+
+.container-login h3 {
+    text-align: center;
+}
+
+.container-login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-login form button {
+    width: 60px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px black;
+}
+
+.login-group {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.login-group input {
+    padding: 5px;
+    border-radius: 0.3rem;
+}

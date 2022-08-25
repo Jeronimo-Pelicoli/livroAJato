@@ -1,0 +1,59 @@
+section {
+    width: 70%;
+    background-color: #8A2BE2;
+    margin: 30px auto;
+    border: solid #4B0082;
+    border-radius: 0.6rem;
+}
+
+.card-header {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.card-header h2 {
+    display: inline;
+}
+
+.card-header button {
+    background-color: #4B0082;
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 1rem;
+    position: absolute;
+    top: 5%;
+    right: 4%;
+}
+
+.card-header button:active {
+    box-shadow: 0 0 3px #666;
+    transform: translateY(2px);
+}
+
+.jalido {
+    background-color: #4B0082;
+    color: white;
+    font-size: 13px;
+    margin: 0;
+    padding: 6px;
+    border: none;
+    border-radius: 1rem;
+    position: absolute;
+    top: 5%;
+    right: 4%;
+}
+
+.card-livro {
+    display: flex;
+}
+
+.card-content {
+    margin: auto 0;
+}
+
+img {
+    width: 300px;
+    margin: 20px;
+}
